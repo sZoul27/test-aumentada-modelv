@@ -3,38 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Modelo en Realidad Aumentada</title>
+  <title>Kirby en Realidad Aumentada</title>
 
   <!-- Importar el componente model-viewer -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.2.0/model-viewer.min.js"></script>
 
   <!-- Fuente moderna -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #0d0d0d;
-      color: #f0f0f0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+      color: #333;
       line-height: 1.6;
     }
 
     header {
       text-align: center;
-      padding: 4rem 2rem;
-      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      padding: 3rem 2rem;
+      background: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
     }
 
     header h1 {
-      font-size: 3rem;
-      color: #00ffe0;
+      font-size: 2.5rem;
+      color: #222;
       margin-bottom: 0.5rem;
     }
 
     header p {
-      font-size: 1.2rem;
-      color: #ff00ff;
+      font-size: 1.1rem;
+      color: #666;
     }
 
     section {
@@ -45,67 +46,73 @@
     }
 
     h2 {
-      color: #00ffe0;
+      color: #444;
       margin-bottom: 2rem;
+      font-weight: 600;
     }
 
     model-viewer {
       width: 100%;
       height: 500px;
-      border: 2px solid #00ffe0;
-      border-radius: 10px;
-      box-shadow: 0 0 20px #00ffe0;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: #fff;
     }
 
     model-viewer:hover {
-      transform: scale(1.02);
-      box-shadow: 0 0 30px #ff00ff;
+      transform: scale(1.01);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
     }
 
     footer {
       text-align: center;
       padding: 2rem;
-      background: #0d0d0d;
-      border-top: 1px solid #333;
+      background: #f5f5f5;
+      border-top: 1px solid #e0e0e0;
     }
 
     footer a {
       margin: 0 1rem;
-      color: #ff00ff;
+      color: #444;
       text-decoration: none;
+      font-weight: 500;
       transition: color 0.3s ease;
     }
 
     footer a:hover {
-      color: #00ffe0;
+      color: #0077ff;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Mi Experiencia en Realidad Aumentada</h1>
-    <p>Un vistazo a mi modelo 3D</p>
+    <p>Kirby sobre un Goomba pateando un Toad</p>
   </header>
 
   <section>
     <h2>Modelo Destacado</h2>
-    <model-viewer src="./recursos/emocion digital.glb" alt="Kirby, Toad y Goomba"
+    <model-viewer src="./recursos/emocion digital.glb" alt="Kirby sobre Goomba pateando Toad"
       ar camera-controls shadow-intensity="1"
       environment-image="./recursos/glasshouse_interior_4k.hdr"
       poster="./recursos/poster.webp">
     </model-viewer>
-    <p style="margin-top:1rem; color:#ccc;">
-      Este modelo representa mi exploración y curiosidad en entornos aumentados, decidí hacer un escenario con unos personajes iconicos de los  videojuegos de nuestra juventud.
+    <p style="margin-top:1rem; color:#555;">
+      Este modelo representa una escena divertida y estilizada en realidad aumentada.
+    </p>
+     <p style="margin-top:1rem; color:#555;">
+      Dale al cubo para interactuar con el modelo.
     </p>
   </section>
 
   <footer>
     <p>Conéctate conmigo:</p>
-    <a href="mailto:tuemail@example.com">Correo</a>
-    <a href="https://linkedin.com/in/tuusuario">LinkedIn</a>
-    <a href="https://instagram.com/tuusuario">Instagram</a>
-    <a href="https://artstation.com/tuusuario">ArtStation</a>
+    <a href="https://github.com/sZoul27">GitHub</a>
+    <a href="https://linkedin.com/in/santiago-andrés-zorrilla-salazar-04602b353">LinkedIn</a>
+    <a href="https://instagram.com/zsant27">Instagram</a>
+    <a href="https://behance.net/santiagzorrill4">Behance</a>
   </footer>
 </body>
 </html>
