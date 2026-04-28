@@ -1,2 +1,2 @@
-# test-aumentada
-test de realidad aumentada
+# EMOCION DIGITAL
+Trabajo en realidad aumentada
